@@ -1,13 +1,12 @@
 {
-  // I'm a comment, yay
-  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
   packageRules: [
     {
-      matchPackagePrefixes: [
-        "com.foo:bar"
+      enabled: false,
+      matchPackageNames: [
+        'com.foo:bar{/,}**',
       ],
-      enabled: false
-    }
+    },
   ],
-  configMigration: true // look ma, no trailing comma
+  configMigration: true,
 }

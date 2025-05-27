@@ -1,5 +1,5 @@
 {
-  # I'm a comment, yay
+  // I'm a comment, yay
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "configMigration": true # look ma, no trailing comma
+  "configMigration": true // look ma, no trailing comma
 }

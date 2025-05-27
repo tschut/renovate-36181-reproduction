@@ -8,6 +8,6 @@
       ],
       enabled: false
     }
-  ]
+  ],
   configMigration: true // look ma, no trailing comma
 }
